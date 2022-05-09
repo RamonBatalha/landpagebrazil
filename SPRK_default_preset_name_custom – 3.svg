@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="950" height="600" viewBox="0 0 950 600">
+  <defs>
+    <clipPath id="clip-SPRK_default_preset_name_custom_3">
+      <rect width="950" height="600"/>
+    </clipPath>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_3" data-name="SPRK_default_preset_name_custom – 3" clip-path="url(#clip-SPRK_default_preset_name_custom_3)">
+    <rect width="950" height="600" fill="#fff"/>
+    <path id="Subtração_1" data-name="Subtração 1" d="M536.794,353.592c-18.845,0-39.608-.73-61.712-2.168-20.524-1.336-42.706-3.315-65.928-5.883-40.868-4.52-86.086-10.977-134.4-19.194-38.64-6.571-79.332-14.276-120.945-22.9-37.006-7.668-67.889-14.655-87.28-19.166V.5h951V287.577C985.68,294.251,953.2,300.7,921,306.757c-43.241,8.129-85.121,15.366-124.476,21.511-48.261,7.536-93.079,13.48-133.21,17.667-22.605,2.359-44.1,4.2-63.874,5.462-21.206,1.357-41.007,2.092-58.851,2.185C539.319,353.589,538.076,353.592,536.794,353.592Z" transform="translate(-67.03 -1)" fill="#0c326f"/>
+  </g>
+</svg>

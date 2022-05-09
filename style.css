@@ -1,0 +1,489 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*header*/
+
+header nav div ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.linkmenu:hover{
+    color: rgb(152, 220, 247, 0.9);
+    
+}
+
+header {
+    background-color: #0c326f;;   
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    
+}
+
+#flag {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+}
+
+header div ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 22px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#menulist {
+    display: flex;
+    align-items: center;
+}
+
+
+#logo {
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    
+}
+
+/* mobile */ 
+
+.mobile-menu-icone {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+/* container 1 */ 
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.196vw; /*30px*/
+    gap: 5.857vw; /*80px*/
+    background-image: url(brazil-4809011_1920.jpg);
+    background-repeat: none;
+    background-size: cover;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+    height: 51.245vw; /*700px*/
+}
+
+#textcontainer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container1title {
+    font-size: 4.392vw; /*60px*/
+    text-shadow: 3px 3px  rgb(20, 17, 17);
+}
+
+#container1sub {
+    font-size: 2.562vw; /*35px*/
+    text-shadow: 2px 1px rgb(20, 17, 17);
+    
+}
+
+#buttons {
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    /*background-color: rgb(30,156,10); */
+    background-color: #0c326f;
+    color: white;
+    font-size: 25px;
+}
+
+#buttons:hover {
+    /*background-color: rgb(75, 241, 125);*/
+    background-color: rgb(152, 220, 247, 0.9);
+    cursor: pointer;
+}
+
+/* container 2 */
+
+.container2 {
+    width: 100%;
+    height: 36.603vw; /*500px*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(SPRK_default_preset_name_custom\ –\ 2.svg);
+    background-position: left right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wanp {
+    color: white; 
+    font-size: 3.294vw ; 
+    font-family:'BIZ UDPMincho', serif;
+}
+
+#pcards {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.196vw; /*30px*/
+    font-weight: bold;
+}
+
+.cardsinformation {
+    width: 21.962vw; /*300px*/
+    height: 21.962vw; /*300px*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#minicards {
+    display: flex;
+    gap: 1.464vw; /*20 px*/
+    margin-top: 1.464vw; /*20 px*/
+}
+
+.imgcontainer2 {
+    width: 20.498vw; /*280px*/
+    border-radius: 0.732vw; /*10px*/
+    border: rgb(224, 240, 6) 2px solid;
+    box-shadow: 5px 4px 8px 0 rgba(0,0,0, 0.75);
+    transition: 0.3s;
+}
+
+.imgcontainer2:hover {
+    width: 21.962vw; /*300px*/
+    z-index: 2;
+    border: #50d8e2 solid 2px;
+}
+
+.pcontainer2 {
+    margin-top: 1.464vw; /*20px*/
+    font-size: 1.830vw; /*25px*/
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+
+/* container 3 */ 
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 36.603vw; /*500px*/
+}
+
+#cardquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25.622vw; /*350px*/
+    background-color: rgb(147, 141, 153, 0.3);
+}
+
+#cardquote p {
+    text-align: justify;
+    padding: 0 14.641vw; /*200px*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.830vw; /*25px*/
+    font-style: italic;
+}
+
+#cardquote span {
+    font-size: 15px; /* 20px */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 36.603vw; /* 500px */
+    margin-top: 15px; /* 15px */
+}
+
+/* container 4 */
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 21.962vw; /*300px*/
+}
+
+#calltoaction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 180px;
+    border-radius: 15px;
+    background-color: #0c326f;;
+}
+
+#calltoaction p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 60%;
+    height: 200px;
+    border-radius: 15px;
+    
+}
+
+#calltoaction p span {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+#callbutton {
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #0c326f;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#callbutton:hover {
+    background-color: rgb(152, 220, 247, 0.6);
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #19263b;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 950px) { 
+    
+    .container2 {
+        width: 100%;
+        height: 36.603vw; /*500px*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(SPRK_default_preset_name_custom\ –\ 3.svg);
+        background-repeat: no-repeat;
+    }
+
+    #wanp {
+        font-size: 35px;
+    }
+
+   .pcontainer2 {
+       margin-top: 5px; /*20px*/
+       font-size: 25px; /*25px*/
+       
+   }
+
+   #container1title {
+    font-size: 50px; /*60px*/
+    text-shadow: 3px 3px  rgb(20, 17, 17);
+   }
+
+   #container1sub {
+    font-size: 25px; /*35px*/
+    text-shadow: 2px 1px rgb(20, 17, 17);
+    
+    }
+
+    /* container 3 */ 
+
+    #cardquote p {
+        padding: 0 14.641vw; /*200px*/
+        font-size: 20px; /*25px*/
+    }
+   
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    /* nav-bar */
+    header {
+        flex-direction: column;
+        justify-content: flex-start;
+    } 
+
+    header div ul { 
+        gap: 20px;
+    }
+
+
+     #menulist {
+        display: none;
+    }
+
+    .mobile-menu-icone {
+        display: block;
+        padding-top: 30px;
+        
+    }
+
+    .menu-mobile ul{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        font-size: 25px;
+ 
+    }
+
+    .menu-mobile ul a {
+        text-decoration: none;
+    }
+
+    
+
+    #hamburguer {
+        background-color: transparent;
+        border: 0px;
+        cursor: pointer;
+        
+    }
+
+    .open {
+        display: block;
+    }
+
+    /* container 1 */
+
+    .container1 {
+        height: 500px;
+    }
+
+    #textcontainer1 {
+        align-items: center;
+    }
+
+    /* mini cards */
+
+    #minicards {
+        display: flex;
+        flex-direction: column;
+        gap: 5px; /*20 px*/
+        margin-top: 15px; /*20 px*/
+    }
+
+    .cardsinformation {
+        width: 300px; /*300px*/
+        height: 230px; /*300px*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+     .container2 {
+         height: 1000px;
+         justify-content: flex-start;
+         background-color: #0c326f;
+         background-image: none;
+         padding-top: 10px;
+        
+     }
+
+     
+
+     .imgcontainer2 {
+        width: 250px;
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    
+    .imgcontainer2:hover {
+        border: #50d8e2 solid 2px;
+        width: 270px;
+        z-index: 2;
+    }
+    
+    #wanp {
+         font-size: 35px;
+     }
+
+    .pcontainer2 {
+        margin-top: 5px; /*20px*/
+        font-size: 25px; /*25px*/
+        
+    }
+
+    /* container 3 */ 
+
+    .container3 {
+        height: 300px;
+    }
+
+    #cardquote {
+        height: 200px;
+    }
+
+    /* container 4 */
+
+    .container4 {
+        height: 200px;
+    }
+    #calltoaction {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 150px;
+    }
+
+    #calltoaction p {
+        width: 70%;
+    }
+
+    #callbutton {
+        margin-bottom: 10px;
+    }
+    
+}
