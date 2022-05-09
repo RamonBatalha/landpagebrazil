@@ -23,3 +23,13 @@ Recursos:
 - CSS
 - JavaScript (barra de navegação responsiva)
 - Adobe XD para manipular imagens e fazer alguns ajustes gerais
+
+--------------------------------------------------------- 
+
+Imagens utilizadas
+
+https://br.freepik.com/fotos-vetores-gratis/mulher-carnaval
+
+https://br.freepik.com/fotos-vetores-gratis/comida-brasil
+
+https://br.freepik.com/fotos-vetores-gratis/assistindo-futebol
